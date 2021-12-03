@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "lint": "eslint --ext .js,.ts",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.2",
+    "@types/jest": "^27.0.3",
+    "@typescript-eslint/eslint-plugin": "^5.5.0",
+    "@typescript-eslint/parser": "^5.5.0",
+    "babel-jest": "^27.4.2",
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.0",
+    "ts-jest": "^27.0.7",
+    "ts-jest-resolver": "^2.0.0",
+    "typescript": "^4.5.2"
+  }
+}
